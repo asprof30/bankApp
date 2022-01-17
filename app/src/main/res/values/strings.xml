@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">bankApp</string>
+
+        <string name="title">Cloud Bank</string>
+        <string name="operation1">facture internet</string>
+        <string name="operation2">emission</string>
+        <string name="operation3">paiement dun</string>
+        <string name="operation4">paiement par carte</string>
+        <string name="operation5">retrait despece</string>
+        <string name="montant1">2000</string>
+        <string name="montant2">3000</string>
+        <string name="montant3">4000</string>
+        <string name="montant4">1000</string>
+        <string name="montant5">8000</string>
+        <string name="date">19/12/2021</string>
+        <string name="numCompte">numero compte</string>
+        <string name="desc">description</string>
+        <string name="dateop">date operation</string>
+        <string name="dateval">date validite</string>
+
+
+
+</resources>
