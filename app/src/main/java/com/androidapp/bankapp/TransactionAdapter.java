@@ -32,7 +32,7 @@ public class TransactionAdapter extends ArrayAdapter<Transaction> {
         TextView price = convertView.findViewById(R.id.price);
         TextView date = convertView.findViewById(R.id.date);
 
-
+//tr
         img.setImageResource(transactionItems.get(position).getImageId());
         ops.setText(transactionItems.get(position).getOperation());
         date.setText(transactionItems.get(position).getDate());

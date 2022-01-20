@@ -56,6 +56,7 @@
             android:textSize="18dp"
             android:textStyle="bold"
             ></TextView>
+        //tr
         <TextView
             android:id="@+id/dateValidité"
             android:layout_width="wrap_content"

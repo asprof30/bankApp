@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             android:gravity="end"
         ></TextView>
+        //tr
         <TextView
             android:id="@+id/date"
             android:text="01/01/2022"

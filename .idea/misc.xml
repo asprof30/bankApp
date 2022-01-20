@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/elmeh/AndroidStudioProjects/bankApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/elmeh/AndroidStudioProjects/bankApp/app/src/main/res/layout/activity_transaction.xml" value="0.1" />
         <entry key="..\:/Users/elmeh/AndroidStudioProjects/bankApp/app/src/main/res/layout/activity_transaction_details.xml" value="0.22" />
         <entry key="..\:/Users/elmeh/AndroidStudioProjects/bankApp/app/src/main/res/layout/list_item.xml" value="1.0" />

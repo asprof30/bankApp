@@ -27,3 +27,4 @@ public class Transaction_details extends AppCompatActivity {
         date.append(" :"+dateOp);
     }
 }
+//tr

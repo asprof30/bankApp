@@ -38,7 +38,7 @@ public class Transaction {
     public void setOperation(String operation) {
         this.operation = operation;
     }
-
+//tr
     public void setMontants(String montants) {
         this.montants = montants;
     }

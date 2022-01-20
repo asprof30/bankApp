@@ -47,7 +47,7 @@ public class TransactionActivity extends AppCompatActivity {
         }
     });
 }
-
+//tr
     public void adding (String ops[], String price[], String date[], int [] img)
     {
 
