@@ -23,7 +23,7 @@ public class Transaction_details extends AppCompatActivity {
         String prix = extras.getString("prix");
         montant.append(" :"+prix);
         date = findViewById(R.id.dateOp);
-        String dateOp = extras.getString("date");
+        String dateOp = extras.getString("dateop");
         date.append(" :"+dateOp);
     }
 }

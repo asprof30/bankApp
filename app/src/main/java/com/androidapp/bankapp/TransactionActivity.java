@@ -40,7 +40,7 @@ public class TransactionActivity extends AppCompatActivity {
            // Toast.makeText(TransactionActivity.this, "qsdfghjkerty" + position, Toast.LENGTH_SHORT).show();
             Intent i= new Intent(TransactionActivity.this, Transaction_details.class);
             i.putExtra("prix",price[position]);
-            i.putExtra("date",date[position]);
+            i.putExtra("dateop",date[position]);
             i.putExtra("key",ops[position]);
             startActivity(i);
 
