@@ -19,7 +19,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText loginEdit;
 
     EditText passEdit;
@@ -29,8 +28,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
       login=findViewById(R.id.logButton);
       loginEdit=findViewById(R.id.loginEdit);
+
       passEdit=findViewById(R.id.passEdit);
 
 

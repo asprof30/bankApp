@@ -13,34 +13,32 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
+
 public class TransactionAdapter extends ArrayAdapter<Transaction> {
-
-    private ArrayList<Transaction> transactionList;
-
-
-
-    public TransactionAdapter(@NonNull Context context, int resource, ArrayList<Transaction> transactionList) {
-        super(context, resource);
-        this.transactionList = transactionList;
+    private ArrayList <Transaction> transactionItems;
+    public TransactionAdapter(@NonNull Context context, int resource , ArrayList <Transaction> transactionItems) {
+        super(context, resource,transactionItems);
+        this.transactionItems=transactionItems;
     }
 
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-    int index=position;
-       if(convertView==null){
-           convertView= LayoutInflater.from(getContext()).inflate(R.layout.list_item,parent,false);
-       }
-        ImageView transactionImage=convertView.findViewById(R.id.img);
-        TextView transactionOperation =convertView.findViewById(R.id.operation);
-        TextView transactionMontant=convertView.findViewById(R.id.montant);
-        TextView transactionDate=convertView.findViewById(R.id.date);
+        LayoutInflater inf = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        convertView = inf.inflate(R.layout.list_item,parent,false);
+
+        ImageView img = convertView.findViewById(R.id.image);
+        TextView ops = convertView.findViewById(R.id.ops);
+        TextView price = convertView.findViewById(R.id.price);
+        TextView date = convertView.findViewById(R.id.date);
 
 
-        transactionImage.setImageResource(transactionList.get(position).getImageId());
-        transactionOperation.setText(transactionList.get(position).getOperation());
-        transactionMontant.setText(transactionList.get(position).getMontant());
-        transactionDate.setText(transactionList.get(position).getDate());
+        img.setImageResource(transactionItems.get(position).getImageId());
+        ops.setText(transactionItems.get(position).getOperation());
+        date.setText(transactionItems.get(position).getDate());
+        price.setText(transactionItems.get(position).getMontants());
+
+
 
 
 

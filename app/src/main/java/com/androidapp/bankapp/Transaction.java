@@ -1,15 +1,17 @@
 package com.androidapp.bankapp;
 
-public class Transaction {
-    private int imageId;
-    private String operation;
-    private int montant;
-    private String date;
+import java.util.Date;
 
-    public Transaction(int imageId, String operation, int montant, String date) {
+public class Transaction {
+    int imageId;
+    String operation;
+    String montants;
+    String date;
+
+    public Transaction(int imageId, String operation, String montants, String date) {
         this.imageId = imageId;
         this.operation = operation;
-        this.montant = montant;
+        this.montants = montants;
         this.date = date;
     }
 
@@ -21,11 +23,27 @@ public class Transaction {
         return operation;
     }
 
-    public int getMontant() {
-        return montant;
+    public String getMontants() {
+        return montants;
     }
 
     public String getDate() {
         return date;
+    }
+
+    public void setImageId(int imageId) {
+        this.imageId = imageId;
+    }
+
+    public void setOperation(String operation) {
+        this.operation = operation;
+    }
+
+    public void setMontants(String montants) {
+        this.montants = montants;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BankApp">
         <activity
+            android:name=".Transaction_details"
+            android:exported="false" />
+        <activity
             android:name=".TransactionActivity"
             android:exported="false" />
         <activity
